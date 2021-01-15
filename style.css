@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+}
+/*header style*/
+header {
+  width: 100%;
+  height: 620px;
+  background-image: url("background.jpg");
+  border-bottom: 8px solid #222;
+  box-shadow: inset 0px 0px 205px 199px black;
+}
+.container {
+  width: 89%;
+  margin: auto;
+}
+header section .header .container {
+  display: flex;
+}
+/*header logo and sub style*/
+header section article div .logo_sub {
+  width: 45%;
+}
+header section article div .logo_sub img {
+  margin-top: -11px;
+  width: 181px;
+}
+header section article div .logo_sub input {
+  width: 121px;
+  height: 30px;
+  background-color: red;
+  border: 2px solid red;
+  border-radius: 5px;
+  color: wheat;
+  font-size: 18px;
+  position: relative;
+  right: -542px;
+  top: 38px;
+}
+/*header abonner and tite stile*/
+header section article div h2,
+header section article div h3,
+header section article div h4 {
+  color: white;
+  text-align: center;
+}
+header section article div h2 {
+  margin-top: 91px;
+  font-size: 50px;
+}
+header section article div h3 {
+  font-size: 24px;
+}
+header section article div h4 {
+  margin-top: 20px;
+}
+/*abonner email input  style*/
+header section article #sub {
+  text-align: center;
+  margin-top: 15px;
+}
+header section article #sub #email {
+  width: 344px;
+  height: 45px;
+  margin-right: -3px;
+}
+header section article #sub #button_S {
+  width: 208px;
+  height: 49px;
+  background-color: red;
+  border: 1px solid red;
+  color: wheat;
+  font-size: 20px;
+}
+/*main style */
+main section article {
+  width: 100%;
+  height: auto;
+  border-bottom: 8px solid #222;
+}
+main section article div .pc,
+main section article div .tablet,
+main section article div .tv {
+  width: 49%;
+  height: 260px;
+  display: inline-block;
+}
+/*TV article style*/
+main section article div .tv p,
+main section article div .tv h2 {
+  color: white;
+}
+main section article div #text {
+  margin-top: 22px;
+  position: relative;
+  top: -183px;
+  margin-bottom: -139px;
+}
+main section article div #text h2 {
+  font-size: 40px;
+}
+main section article div #text p {
+  font-size: 25px;
+}
+main section article div .tv img {
+  height: auto;
+}
+/*tablet articl style*/
+main section article div .tablet p,
+main section article div .tablet h2 {
+  color: white;
+}
+main section article div #text2 {
+  position: relative;
+  top: -65px;
+  margin-bottom: -178px;
+}
+main section article div #text2 h2 {
+  font-size: 49px;
+}
+main section article div #text2 p {
+  font-size: 26px;
+}
+/*pc style*/
+main article div .pc p,
+main article div .pc h2 {
+  color: white;
+}
+main article div #text3 p {
+  font-size: 35px;
+}
+main article div #text3 h2 {
+  font-size: 70px;
+}
+main article div #text3 {
+  position: relative;
+  top: -100px;
+  margin-bottom: -188px;
+}
+/*footer style*/
+footer {
+  width: 100%;
+  height: auto;
+}
+footer div article .psulink {
+  width: 20%;
+  height: 140px;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+footer div article .psulink a {
+  display: block;
+  text-decoration: none;
+  color: gray;
+}
+footer div #link {
+  text-align: center;
+}
+footer div #question a {
+  color: gray;
+  text-decoration: none;
+}
+footer div article select {
+  color: white;
+  background-color: black;
+  width: 108px;
+  height: 33px;
+}
+footer div article p {
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+/*phone and tablet */
+@media only screen and (max-width: 800px) {
+  header {
+    box-shadow: inset 0px 0px 205px 140px black;
+  }
+
+  header section .header .container {
+    display: block;
+  }
+  /*header logo and sub style*/
+
+  header section article div .logo_sub input {
+    position: relative;
+    right: -200px;
+    top: -65px;
+  }
+  header section article div h2,
+header section article div h3,
+header section article div h4 {
+  color: white;
+  text-align: center;
+}
+header section article div h2 {
+  margin-top: -5px;
+}
+
+/*abonner email input  style*/
+
+header section article #sub #email {
+  width: 320px;
+  margin-right: 0px;
+}
+header section article #sub #button_S {
+  border-radius: 2px;
+  margin-top: 10px;
+}
+/*main style*/
+
+main section article div .pc,
+main section article div .tablet,
+main section article div .tv {
+  height: auto;
+  width: 100%;
+}
+/*TV article style*/
+
+main section article div #text {
+  margin-top: 10px;
+  position: initial;
+}
+main section article div #text h2 {
+  font-size: 26px;
+}
+main section article div #text p {
+  font-size: 18px;
+}
+main section article div .tv img {
+  width: 100%;
+margin-top: 10px;
+  
+}
+/*tablet articl style*/
+main section article div .tablet img{
+  width: 100%;
+}
+
+main section article div #text2 {
+  position: initial;
+  margin-bottom: 15px;
+}
+main section article div #text2 h2 {
+  font-size: 25px;
+}
+main section article div #text2 p {
+  font-size: 16px;
+}
+/*pc style*/
+
+main article div #text3 p {
+  font-size: 25px;
+}
+main article div #text3 h2 {
+  font-size: 50px;
+}
+main article div #text3 {
+  position: inherit;
+  margin-bottom: 15px;
+}
+main article div .pc img{
+  width: 100%;
+}
+}
